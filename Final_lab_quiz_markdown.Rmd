@@ -1,0 +1,23 @@
+---
+title: "Last Lab Quiz!"
+author: "Jennifer Gomez"
+date: "November 22, 2016"
+output: word_document
+---
+
+##Final Lab Quiz - Examining Anxiety, Preparation, and Exam Scores
+
+I examined the extent to which exam grades (E) were predicted by anxiety (A) and preparation (P). As indicated in Table 1, when the predictors were examined individually, there was a strong positive relation between anxiety and exam grades, *r* = .69, 95% CI[.64, .73], such that as anxiety increased exam
+grades increased. There was a strong positive relation between preparation and exam grades, *r* = .49, 95% CI[.42, .56], such that as preparation increased so did exam grades.
+
+I used moderated multiple regression to test the extent to which the relation between anxiety and exam grades depended on the amount of exam preparation. I assessed this moderation by examining the interaction between anxiety and preparation using centered predictors (consistent with the recommendations of Cohen, Cohen, West, and Aiken (2003)), see Table 2. Together the predictors (anxiety, preparation, and their
+product) accounted for a significant amount of the variance in exam grades, $*R*^2$ = .62, 95% CI[.57, .66], p < .01. The p-value for the anxiety by preparation product term was below .05, t(496) = 6.06, p <.01, which suggests the presence of an interaction. Inspection of the squared semi-partial correlation for the product term indicated the proportion of variance accounted for was small, $*sr*^2$ = .03. To better understand this interaction, I explored the regression surface with simple-slope analyses.
+
+The regression surface is presented in Figure 1 and the simple-slope cross-sections are presented in Figure 2. When preparation was high (i.e., +1 SD) there was a positive relation *b* = 19.49, 95% CI[17.50, 21.48], t(496) = 19.25, *p* < .0001, see Equation 1 below. When preparation was low (i.e., -1 SD) there was also a positive relation between anxiety and exam grades, b = 11.02,95% CI[9.08, 12.96], t(496) = 11.16, *p* < .0001, see Equation 2 below. 
+
+ˆE = 19.49A + 55.9 (1)
+
+ˆE = 11.02 + 42.52 (2) 
+
+Thus, if students prepared extensively for the exam, high anxiety levels positively impacted exam performance. Similarily, if students did not prepare extensively for the exam, high anxiety levels
+resulted in increased exam performance as well. 
